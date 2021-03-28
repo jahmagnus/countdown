@@ -52,28 +52,36 @@ body{
     grid-column-end: 9;
     grid-row-start: 3;
     grid-row-end: 9;
-    background-color: green;
+    background-color: white;
+    opacity: 0.5;
 
     height: 10rem;
+    width: auto;
     justify-content: center;
     text-align: center;
-    
+    margin: auto;
    
 }
 
 .clock{
-  padding-top: 2.5rem
+  padding-top: 2.5rem;
+  width: 50rem;
+  background-color:;
+  margin: auto;
  
     
 }
 
 .clock p{
     display: inline;
-    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:;
     font-size: 5rem;
     align-content: center;
     justify-content: center;
     text-align: center;
+    
     
 }
 
