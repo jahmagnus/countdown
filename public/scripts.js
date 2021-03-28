@@ -21,7 +21,7 @@ let x = setInterval(function(){
     let mins = Math.floor((distance%(1000*60*60*24)) / (1000 * 60))
     let secs = Math.floor((distance%(1000*60*60*24)) / 1000)
 
-    console.log(days, hours, mins, secs)
+    document.querySelector('.times').innerHTML = days + ": " + hours + ": " + mins + ": " + secs 
 
     
 
