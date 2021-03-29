@@ -3,17 +3,43 @@
 
     body{
         background-image: url('/cool-background.png');
+        margin: 0px;
     }
 
-    .container{
-        display: grid;
-    }
+    
 
     .rowTwo{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
+        background-color: crimson;
+        height: 27rem;
+        
+    
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1.5rem;
+        
+    }
+
+    .clock{
+        
+    }
+
+    .days{
+        background-color: chartreuse;
+        margin-top: ;
+    }
+
+    .hours{
+        background-color: chartreuse;
+    }
+
+    .minutes{
+        background-color: chartreuse;
+    }
+
+    .seconds{
+        background-color: chartreuse;
     }
 
 }
