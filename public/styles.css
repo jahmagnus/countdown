@@ -11,7 +11,7 @@
     .rowTwo{
         height: 27rem;
         
-        background-color: hotpink;
+        
         text-align: center;
         vertical-align: middle;
         margin-left: 1rem;
@@ -22,15 +22,22 @@
 
     .clock{
 
-        background-color: greenyellow;
-        padding-top: 1.5rem;
         
+        padding-top: 1.5rem;
+        font-size: 2rem;
+        color: black;
+        font-weight: lighter;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    }
 
+    .inset{
+        font-size: 0.8rem;
     }
 
     .days{
         height: 5rem;
-        background-color:blue;
         justify-content: center;
         padding-top: 1rem;
 
@@ -38,7 +45,6 @@
 
     .hours{
         height: 5rem;
-        background-color:red;
         justify-content: center;
         align-items: center;
         padding-top: 1rem;
@@ -46,13 +52,11 @@
 
     .minutes{
         height: 5rem;
-        background-color:yellow;
         padding-top: 1rem;
     }
 
     .seconds{
         height: 5rem;
-        background-color: khaki;
         padding-top: 1rem;
     }
 
