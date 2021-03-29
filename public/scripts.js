@@ -23,7 +23,10 @@ let x = setInterval(function(){
 
     console.log(days, hours, mins, secs)
 
-    document.querySelector('.times').innerHTML =  days + " : " + hours + " : " + mins + " : " + secs 
+    document.querySelector('.days').innerHTML = days
+    document.querySelector('.hours').innerHTML = hours
+    document.querySelector('.minutes').innerHTML = mins
+    document.querySelector('.seconds').innerHTML = secs
 
     
 

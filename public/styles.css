@@ -9,10 +9,9 @@
     
 
     .rowTwo{
-        background-color: crimson;
         height: 27rem;
         
-    
+        background-color: hotpink;
         text-align: center;
         vertical-align: middle;
         margin-left: 1rem;
@@ -22,24 +21,39 @@
     }
 
     .clock{
+
+        background-color: greenyellow;
+        padding-top: 1.5rem;
         
+
     }
 
     .days{
-        background-color: chartreuse;
-        margin-top: ;
+        height: 5rem;
+        background-color:blue;
+        justify-content: center;
+        padding-top: 1rem;
+
     }
 
     .hours{
-        background-color: chartreuse;
+        height: 5rem;
+        background-color:red;
+        justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
     }
 
     .minutes{
-        background-color: chartreuse;
+        height: 5rem;
+        background-color:yellow;
+        padding-top: 1rem;
     }
 
     .seconds{
-        background-color: chartreuse;
+        height: 5rem;
+        background-color: khaki;
+        padding-top: 1rem;
     }
 
 }
