@@ -2,15 +2,10 @@
 @media only screen and (max-width: 600px) {
 
     body{
-        background-image: url('/social.jpg');
-        margin: 0px;
-        background-size: cover;
+    background-image: url('social.jpg');
+    background-size:;
         
-    
-       
     }
-
-    
 
     .rowTwo{
         height: 27rem;
@@ -29,7 +24,7 @@
         
         padding-top: 1.5rem;
         font-size: 2rem;
-        color: ;
+        color:black;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
         
