@@ -2,12 +2,12 @@
 @media only screen and (max-width: 600px) {
 
     body{
-        background-image: url('/cool-background.png');
+        background-image: url('/social.jpg');
         margin: 0px;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        min-width: 100%;
-        min-height: 100%;
+        background-size: cover;
+        
+    
+       
     }
 
     
@@ -29,7 +29,7 @@
         
         padding-top: 1.5rem;
         font-size: 2rem;
-        color: black;
+        color: ;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
         
