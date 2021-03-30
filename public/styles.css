@@ -7,8 +7,13 @@
         
     }
 
+    .container{
+        height: 100%;
+        margin-top: 3.5rem;
+    }
+
     .rowTwo{
-        height: 42rem;
+        height: 100%;
         
         
         text-align: center;
@@ -16,6 +21,7 @@
         margin-left: 1rem;
         margin-right: 1rem;
         margin-top: 1rem;
+        margin-bottom: 1rem;
         background-color: white;
         opacity: 0.65
         
@@ -23,7 +29,7 @@
 
     .clock{
 
-        
+    
         padding-top: 1.5rem;
         font-size: 2rem;
         color:black;
@@ -36,12 +42,14 @@
     .inset{
         font-size: 0.8rem;
         font-weight: lighter;
+        
+        
     }
 
     .days{
         height: 5rem;
         justify-content: center;
-        padding-top: 1rem;
+        margin-top: 0rem;
         
 
     }
@@ -50,19 +58,19 @@
         height: 5rem;
         justify-content: center;
         align-items: center;
-        padding-top: 1rem;
+        margin-top: 3rem;
         
     }
 
     .minutes{
         height: 5rem;
-        padding-top: 1rem;
+        margin-top: 3rem;
         
     }
 
     .seconds{
         height: 5rem;
-        padding-top: 1rem;
+        margin-top: 3rem;
         
     }
 
