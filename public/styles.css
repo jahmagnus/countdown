@@ -8,14 +8,16 @@
     }
 
     .rowTwo{
-        height: 27rem;
+        height: 29rem;
         
         
         text-align: center;
         vertical-align: middle;
         margin-left: 1rem;
         margin-right: 1rem;
-        margin-top: 1.5rem;
+        margin-top: 7rem;
+        background-color: white;
+        opacity: 0.5
         
     }
 
@@ -39,6 +41,7 @@
         height: 5rem;
         justify-content: center;
         padding-top: 1rem;
+        
 
     }
 
@@ -47,16 +50,19 @@
         justify-content: center;
         align-items: center;
         padding-top: 1rem;
+        
     }
 
     .minutes{
         height: 5rem;
         padding-top: 1rem;
+        
     }
 
     .seconds{
         height: 5rem;
         padding-top: 1rem;
+        
     }
 
 }
