@@ -3,7 +3,7 @@
 
 function timer(){
 //set the date counting down to
-const countdownDate = new Date("May 01, 2022 00:00:00").getTime()
+const countdownDate = new Date("April 01, 2022 00:00:00").getTime()
 
 
 //update count every second
