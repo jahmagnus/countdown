@@ -1,5 +1,5 @@
 
-//timer function for countdown1
+//timer function for countdown111
 
 function timer(){
 //set the date counting down to
