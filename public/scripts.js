@@ -1,10 +1,10 @@
 
-//timer function for countdown update11
+//timer function for countdown update11//
 
-function timer(){
+function timer(timedate){
 //set the date counting down to
-const countdownDate = new Date("April 01, 2022 00:00:00").getTime()
-
+//const countdownDate = new Date("April 01, 2022 00:00:00").getTime()
+const countdownDate = new Date(timedate).getTime()
 
 //update count every second
 let x = setInterval(function(){
@@ -35,4 +35,4 @@ let x = setInterval(function(){
 }
 
 
-timer()
+//

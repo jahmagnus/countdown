@@ -21,3 +21,7 @@ app.use(express.static("public"))
 app.get("/", (req, res) =>{
     res.redirect('index.html')
 })
+
+app.get("/other", (req, res) =>{
+    res.redirect('march.html')
+})
