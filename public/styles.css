@@ -54,6 +54,11 @@ body{
         
     }
 
+    .title{
+        margin-bottom: 1rem;
+        font-size: large;
+    }
+
     .days{
         height: 5rem;
         justify-content: center;
@@ -131,6 +136,11 @@ body{
         font-weight: lighter;
         
         
+    }
+
+    .title{
+        margin-bottom: 1rem;
+        font-size: large;
     }
 
     .days{
